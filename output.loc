@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loc version="1.0">
+
+<waypoint>
+  <name><![CDATA[Janáčkova 11]]></name>
+  <coord lat="49.8366755" lon="18.2836184"/>
+</waypoint>
+
+<waypoint>
+  <name><![CDATA[Bohuslava Martinů Ostrava-Poruba]]></name>
+  <coord lat="49.8319537" lon="18.1722008"/>
+</waypoint>
+
+<waypoint>
+  <name><![CDATA[1600 Amphitheatre Parkway, Mountain View, CA]]></name>
+  <coord lat="37.4221985" lon="-122.085985"/>
+</waypoint>
+
+</loc>
