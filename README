@@ -1,0 +1,10 @@
+Geocoding
+=========
+
+Usage: ruby geocode.rb <input-file> <output-file>
+
+Default input file is input.txt. There are lines in format:
+
+	[name:]address
+
+Default output file is output.loc.
