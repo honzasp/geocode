@@ -7,7 +7,12 @@
 </waypoint>
 
 <waypoint>
-  <name><![CDATA[Bohuslava Martinů Ostrava-Poruba]]></name>
+  <name><![CDATA[Jana Bobošíková]]></name>
+  <coord lat="49.7453309" lon="13.3702371"/>
+</waypoint>
+
+<waypoint>
+  <name><![CDATA[Jan Špaček]]></name>
   <coord lat="49.8319537" lon="18.1722008"/>
 </waypoint>
 
