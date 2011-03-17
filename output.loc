@@ -2,16 +2,6 @@
 <loc version="1.0">
 
 <waypoint>
-  <name><![CDATA[Janáčkova 11]]></name>
-  <coord lat="49.8366755" lon="18.2836184"/>
-</waypoint>
-
-<waypoint>
-  <name><![CDATA[Jana Bobošíková]]></name>
-  <coord lat="49.7453309" lon="13.3702371"/>
-</waypoint>
-
-<waypoint>
   <name><![CDATA[Jan Špaček]]></name>
   <coord lat="49.8319537" lon="18.1722008"/>
 </waypoint>
