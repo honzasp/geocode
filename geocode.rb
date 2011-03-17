@@ -6,8 +6,8 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-input_name = ARGV[0] or "input.txt"
-output_name = ARGV[1] or "output.loc"
+input_name = ARGV[0] || "input.txt"
+output_name = ARGV[1] || "output.loc"
 input = File.open input_name
 output = File.open output_name, "w"
 
