@@ -6,10 +6,10 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-INPUT_NAME = "input.txt"
-OUTPUT_NAME = "output.loc"
-input = File.open INPUT_NAME
-output = File.open OUTPUT_NAME, "w"
+input_name = ARGV[0] or "input.txt"
+output_name = ARGV[1] or "output.loc"
+input = File.open input_name
+output = File.open output_name, "w"
 
 #addresses = [ "Bohuslava Martinů Ostrava-Poruba", "1600 Amphitheatre Parkway, Mountain View, CA" ]
 
