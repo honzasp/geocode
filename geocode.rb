@@ -14,7 +14,7 @@ output = File.open output_name, "w"
 #addresses = [ "Bohuslava Martinů Ostrava-Poruba", "1600 Amphitheatre Parkway, Mountain View, CA" ]
 
 output.puts "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
-output.puts "<loc version=\"1.0\">"
+output.puts "<loc src=\"Geocode\" version=\"1.0\">"
 output.puts
 
 input.readlines.map(&:strip).each do |line|
@@ -80,7 +80,7 @@ input.readlines.map(&:strip).each do |line|
 	
 	if coords
 		output.puts "<waypoint>"
-		output.puts "  <name><![CDATA[#{name or address}]]></name>"
+		output.puts "  <name id=\"#{name or address}\"><![CDATA[#{address}]]></name>"
 		output.puts "  <coord lat=\"#{coords["lat"]}\" lon=\"#{coords["lng"]}\"/>"
 		output.puts "</waypoint>"
 		output.puts
