@@ -33,7 +33,7 @@ begin
 
 		case json["status"]
 		when "OK"
-			json["results"][0]["geometry"]["location"]
+			sleep 0.5
 		when "ZERO_RESULTS"
 			$stdout.puts "no results found - ignored"
 			next
@@ -90,7 +90,7 @@ begin
 rescue Exception => exception
 	File.open "error.log", "a" do |error_log|
 		error_log.puts "### #{Time.now.to_s}"
-		error_log.puts exception.to_s
+		error_log.puts exception.inspect
 		exception.backtrace.each do |line|
 			error_log.puts "  #{line}"
 		end
